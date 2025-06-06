@@ -1,0 +1,21 @@
+{
+  [
+    {
+      "id": "test-id-001",
+      "subject": "email/bounce",
+      "data": {
+        "recipient": "Sepideh@jjjje.com",
+        "status": "Bounced",
+        "deliveryStatus": "MailboxBusy",
+        "deliveryStatusDetails": "RecipientInboxFull",
+        "errorCode": "550 5.2.2",
+        "messageId": "abc123"
+      },
+      "eventType": "Microsoft.Communication.EmailDeliveryReportReceived",
+      "dataVersion": "1.0",
+      "metadataVersion": "1",
+      "eventTime": "2025-06-06T18:00:00Z"
+    }
+  ]
+
+}
